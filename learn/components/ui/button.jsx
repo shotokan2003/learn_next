@@ -1,6 +1,6 @@
 "use client";
 
-export function Button({ children, phoneNumber = "1234567890", ...props }) {
+export function Button({ children, phoneNumber = "7744931758", ...props }) {
   const handleCall = () => {
     window.location.href = `tel:${phoneNumber}`;
   };
